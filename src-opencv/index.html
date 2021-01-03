@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		.fixed-position {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		#video {
+			z-index: 1;
+		}
+
+		#canvas {
+			z-index: 2;
+			opacity: 0.3;
+
+			/*mix-blend-mode: exclusion;*/
+		}
+	</style>
+</head>
+<body>
+	<video
+		id="video"
+		class="fixed-position"
+		width="1000"
+		height="750" autoplay></video>
+	<canvas
+		id="canvas"
+		class="fixed-position"></canvas>
+
+	<script src="lib/opencv.js"></script>
+	<script src="index.js"></script>
+
+</body>
+</html>

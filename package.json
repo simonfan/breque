@@ -1,0 +1,27 @@
+{
+  "name": "breque",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-size": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "matter-attractors": "^0.1.6",
+    "matter-js": "^0.13.0",
+    "mousetrap": "^1.6.1",
+    "opencv.js": "^1.1.11",
+    "pathseg": "^1.1.0"
+  }
+}
